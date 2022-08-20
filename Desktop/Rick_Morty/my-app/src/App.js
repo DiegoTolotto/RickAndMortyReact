@@ -1,9 +1,9 @@
 import './App.css';
-import Card from './Components/Card';
+import Catalogo from './Components/Catalogo';
 
 function App() {
   return (
-    <Card/>
+    <Catalogo/>
   );
 }
 

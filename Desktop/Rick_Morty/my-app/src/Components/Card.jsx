@@ -1,18 +1,11 @@
-import { React, useState, useEffect } from "react";
-import axios from "axios";
+import { React, useState } from "react";
 
-export default Cards() {
-
-    const getApi = () => {
-       axios 
-       .get(`https://rickandmortyapi.com/api`)
+export default function Card({ cards = [] }) {
+  return (
+    <div className="card">
+      {cards.map((itens, index) => (
         
-        
-    }
-    
-    return (
-        <div>
-              <h1>ola mundo</h1>
-        </div>
-    )
+      ))}
+    </div>
+  )
 };
