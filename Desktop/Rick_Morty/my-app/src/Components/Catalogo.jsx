@@ -19,6 +19,7 @@ export default function Catalogo() {
 
     useEffect(() => {
         getApi();
+        console.log(cards);
     }, []) ;
     
     return (
