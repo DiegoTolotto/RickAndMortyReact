@@ -1,11 +1,12 @@
 import  React from "react";
+import "./Card.css"
 
 export default function Card({ cards }) {
   return (
     <div className="card">
       {cards.map((itens, index) => (
-        <div key={index} className="col-lg-3 col-md-6 col-sm-12 mb-4">
-        <div className="card" style={{ minWidth: "200px" }}>
+        <div key={index} className="card-info">
+        <div className="card-item" style={{ minWidth: "200px" }}>
           <img className="card-img-top" src={itens.image} alt="character" />
           <div className="card-body">
             <h5 className="card-title">{itens.name}</h5>
