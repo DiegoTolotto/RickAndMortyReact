@@ -1,3 +1,16 @@
 .pagination {
     list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bnt {
+    background-color: rgb(31, 28, 28);
+    border: 2px solid black;
+    color: white;
+    margin: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    box-shadow: 3px 3px red;
 }

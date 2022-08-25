@@ -7,7 +7,7 @@ export default function Card({ cards }) {
       {cards.map((itens, index) => (
         <div key={index} className="card-info">
         <div className="card-item" style={{ minWidth: "200px" }}>
-          <img className="card-img-top" src={itens.image} alt="character" />
+          <img className="card-img" src={itens.image} alt="character" />
           <div className="card-body">
             <h5 className="card-title">{itens.name}</h5>
             <hr />

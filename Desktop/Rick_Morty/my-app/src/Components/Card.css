@@ -5,8 +5,18 @@
 }
 
 .card-item {
-    border: 2px solid black;
+    border: 3px solid black;
     margin: 20px;
     padding: 10px;
     background-color: grey;
+    width: 300px;
+    height: 500px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.card-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

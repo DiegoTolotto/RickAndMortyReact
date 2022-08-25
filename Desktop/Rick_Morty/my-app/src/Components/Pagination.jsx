@@ -15,13 +15,13 @@ function Pagination({prev, next, onPrevious, onNext}) {
         <nav>
             <ul className="pagination">
                 { prev ? (<li className="page-link">
-                                <button className="previos" onClick={handlePrevious}>
+                                <button className="previos bnt" onClick={handlePrevious}>
                                 Previous
                                 </button>
                          </li>) :  null
                 }
                 {  next ? ( <li className="page-link">
-                                <button className="next" onClick={handleNext}>
+                                <button className="next bnt" onClick={handleNext}>
                                     Next
                                 </button>
                             </li>) :  null
