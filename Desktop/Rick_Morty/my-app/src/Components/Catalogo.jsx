@@ -1,6 +1,6 @@
 import  React, { useState, useEffect } from "react";
-import Card from "./Card";
-import Pagination from "./Pagination";
+import Card from "./Card/Card";
+import Pagination from "./Pagination/Pagination";
 
 export default function Catalogo() {
 
